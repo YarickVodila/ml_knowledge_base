@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[База знаний по ML]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>База знаний по ML</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 12 Feb 2025 14:53:17 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 12 Feb 2025 14:53:17 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Дикая база по основам работы с текстами]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[База знаний по ML]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>База знаний по ML</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 12 Feb 2025 15:24:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 12 Feb 2025 15:24:31 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Дикая база по основам работы с текстами]]></title><description><![CDATA[ 
  <br><br>
 <br><a data-href="#Стемминг и Леммантизация" href="about:blank#Стемминг_и_Леммантизация" class="internal-link" target="_self" rel="noopener nofollow">Стемминг и Леммантизация</a>
 <br><a data-href="#Bag of words" href="about:blank#Bag_of_words" class="internal-link" target="_self" rel="noopener nofollow">Bag of words</a>
@@ -155,13 +155,8 @@ CBOW (Continuous Bag of Words): Модель предсказывает целе
 <br>Устойчивость к опечаткам и редким терминам.
 ]]></description><link>NLP\Дикая база по основам работы с текстами.html</link><guid isPermaLink="false">NLP/Дикая база по основам работы с текстами.md</guid><pubDate>Wed, 12 Feb 2025 14:25:01 GMT</pubDate></item><item><title><![CDATA[База знаний по ML]]></title><description><![CDATA[ 
  <br><br>
-<br>NLP
-
 <br><a data-href="Дикая база по основам работы с текстами" href="NLP\Дикая база по основам работы с текстами.html" class="internal-link" target="_self" rel="noopener nofollow">Дикая база по основам работы с текстами</a>
 <br>Transformers
 <br>RAG
-
-
-<br>Classic ML
-<br>Hello world
-]]></description><link>База знаний по ML.html</link><guid isPermaLink="false">База знаний по ML.md</guid><pubDate>Wed, 12 Feb 2025 14:15:15 GMT</pubDate></item></channel></rss>
+<br><br>Hello world
+]]></description><link>База знаний по ML.html</link><guid isPermaLink="false">База знаний по ML.md</guid><pubDate>Wed, 12 Feb 2025 15:17:08 GMT</pubDate></item></channel></rss>

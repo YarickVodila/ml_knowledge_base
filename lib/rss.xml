@@ -1,4 +1,7 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[База знаний по ML]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>База знаний по ML</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 15 Feb 2025 12:32:51 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 15 Feb 2025 12:32:51 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Дикая база по основам работы с текстами]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[База знаний по ML]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>База знаний по ML</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 16 Feb 2025 16:19:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 16 Feb 2025 16:19:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Вероятность]]></title><description><![CDATA[ 
+ <br><br>
+<br><a data-href="#Maximum likelihood estimation" href="about:blank#Maximum_likelihood_estimation" class="internal-link" target="_self" rel="noopener nofollow">Maximum likelihood estimation</a>
+<br><br>Maximum likelihood estimation (Оценка максимального правдоподобия) - это метод оценивания неизвестных параметров путём максимизации функции правдоподобия. Данный метод основывается на предположении, что вся информация о статистической выборке содержится в функции правдоподобия.<br>Функция правдоподобия  представляет собой вероятность получения наблюдаемых данных  и  при заданном значении параметра .  Задача метода максимального правдоподобия состоит в том, чтобы найти такое значение параметра , которое максимизирует эту вероятность. Другими словами, мы ищем такое значение , при котором наблюдаемые данные и  были бы наиболее вероятными.<br>В частности, пример  показывает, что целью является поиск такого значения , которое максимизирует функцию правдоподобия ]]></description><link>Base math for ML\Вероятность.html</link><guid isPermaLink="false">Base math for ML/Вероятность.md</guid><pubDate>Sun, 16 Feb 2025 14:25:37 GMT</pubDate></item><item><title><![CDATA[Дикая база по основам работы с текстами]]></title><description><![CDATA[ 
  <br><br>
 <br><a data-href="#Стемминг и Леммантизация" href="about:blank#Стемминг_и_Леммантизация" class="internal-link" target="_self" rel="noopener nofollow">Стемминг и Леммантизация</a>
 <br><a data-href="#Bag of words" href="about:blank#Bag_of_words" class="internal-link" target="_self" rel="noopener nofollow">Bag of words</a>
@@ -121,10 +124,6 @@ CBOW (Continuous Bag of Words): Модель предсказывает целе
 <br>После завершения обучения сохраните словарь BPE, который будет использоваться для токенизации новых текстов.
 
 
-<br><br>BPE широко используется в современных моделях обработки естественного языка (NLP), таких как:<br>
-<br>Transformer-based модели: BPE используется в моделях, таких как GPT (Generative Pre-trained Transformer), BERT (Bidirectional Encoder Representations from Transformers), и других.
-<br>Нейронные машинные переводы: BPE помогает уменьшить размер словаря и улучшить качество перевода, особенно для редких слов.
-<br>Генерация текста: BPE позволяет моделям генерировать текст на уровне подслов, что улучшает качество генерации.
 <br><br>WordPiece — это алгоритм токенизации, используемый для разбиения текста на субтокены (подслова). Он широко применяется в моделях обработки естественного языка (NLP), таких как BERT, DistilBERT и других трансформерных архитектурах. WordPiece позволяет эффективно обрабатывать редкие слова и сокращать размер словаря, что делает его популярным выбором для задач NLP.<br><br>
 <br>
 Инициализация словаря:
@@ -191,8 +190,12 @@ CBOW (Continuous Bag of Words): Модель предсказывает целе
 <br>Эффективная обработка редких слов.
 <br>Сокращение размера словаря.
 <br>Устойчивость к опечаткам и редким терминам.
-]]></description><link>NLP\Дикая база по основам работы с текстами.html</link><guid isPermaLink="false">NLP/Дикая база по основам работы с текстами.md</guid><pubDate>Wed, 12 Feb 2025 15:42:58 GMT</pubDate></item><item><title><![CDATA[База знаний по ML]]></title><description><![CDATA[ 
+]]></description><link>NLP\Дикая база по основам работы с текстами.html</link><guid isPermaLink="false">NLP/Дикая база по основам работы с текстами.md</guid><pubDate>Sat, 15 Feb 2025 12:36:10 GMT</pubDate></item><item><title><![CDATA[ML_knowledge_base]]></title><description><![CDATA[ 
  <br><br><br>
+<br>Bias and Varience
+<br>Статистика
+<br><a data-href="Вероятность" href="Base math for ML\Вероятность.html" class="internal-link" target="_self" rel="noopener nofollow">Вероятность</a>
+<br><br>
 <br>Линейные модели
 <br>Деревья
 <br>Preprocessing данных
@@ -204,5 +207,5 @@ CBOW (Continuous Bag of Words): Модель предсказывает целе
 <br><a data-href="Дикая база по основам работы с текстами" href="NLP\Дикая база по основам работы с текстами.html" class="internal-link" target="_self" rel="noopener nofollow">Дикая база по основам работы с текстами</a>
 <br>Transformers
 <br>RAG
-<br>Hello world
-]]></description><link>База знаний по ML.html</link><guid isPermaLink="false">База знаний по ML.md</guid><pubDate>Sat, 15 Feb 2025 12:32:40 GMT</pubDate></item></channel></rss>
+<br>print("Hello world and go!")
+]]></description><link>ML_knowledge_base.html</link><guid isPermaLink="false">ML_knowledge_base.md</guid><pubDate>Sun, 16 Feb 2025 12:38:07 GMT</pubDate></item></channel></rss>
